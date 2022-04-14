@@ -34,4 +34,20 @@
         android:layout_toRightOf="@id/lblTelefono"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/lblFecharegistro"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Telefono:"
+        android:layout_below="@id/lblTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/fecharegistro"
+        android:textSize="20sp"
+        android:text="xx-xx-xxxx:"
+        android:layout_below="@id/telefono"
+        android:layout_toRightOf="@id/lblFecharegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
