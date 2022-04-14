@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2B84F5"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar persona"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/inputNombre"
+        android:hint="Nombre..."
+        android:textColor="@color/white"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/inputTelefono"
+        android:hint="Telefono..."
+        android:textColor="@color/white"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnInsetar"
+        android:paddingTop="10dp"
+        android:text="Insetar persona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>
